@@ -10,3 +10,9 @@ Convertisseur d'unité:
 4. Une masse en Kg en Livres (lire, convertir puis afficher)
 
 ## Projet 2
+Calculateur de notes avec mention:
+1. Demander un nom
+2. Demander 4 notes 
+3. Moyenne des 4 notes
+4. Afficher avec une mention (0-4 : Resit, 4-8 : Need Work, 8-12 : Basic, 12-15 : Solid, 15-20 : Outstanding)
+5. Rattrapage oui ou non ? (<10 ou >10)
