@@ -27,3 +27,14 @@ cours supervisé: https://www.youtube.com/watch?v=KXZfh19JN-A
 2. Demander à l'utilisateur de le deviner
 3. Faire une boucle tant que l'utilisateur ne trouve pas le nombre, on lui redemande le nombre + on affiche si trop grand ou trop petit + sortir de la boucle si le nombre est trouvé 
 4. Afficher le nombre de tentatives à la fin
+
+# Projet 4
+### Notions abordé : Liste fixe, Liste dynamique (Array List), Map & Set (avec Hash et Tree), Queue
+## Notes de classes
+On a x étudiants, chaque étudiant a une note, on a donc x notes, les notes on les stockent dans un tableau de taille x.
+Avec le tableau de notes, on calcule la moyenne de la classe, puis on trouve les notes min et max.
+1. Demander une taille de tableau 
+2. Créer un tableau de cette taille
+3. Remplir le tableau de notes
+4. Calculer et afficher la moyenne
+5. Trouver et afficher la note min et note max
