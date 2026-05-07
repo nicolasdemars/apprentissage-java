@@ -25,5 +25,5 @@ Jeu du juste prix:
 (A savoir: Math.random() permet de générer des nombres aléatoires flottants)
 1. Générer un nombre aléatoire entre 1 et 100
 2. Demander à l'utilisateur de le deviner
-3. Faire une bouble tant que l'utilisateur ne trouve pas le nombre, on lui redemande le nombre + on affiche si trop grand ou trop petit + sortir de la boucle si le nombre est trouvé 
+3. Faire une boucle tant que l'utilisateur ne trouve pas le nombre, on lui redemande le nombre + on affiche si trop grand ou trop petit + sortir de la boucle si le nombre est trouvé 
 4. Afficher le nombre de tentatives à la fin
