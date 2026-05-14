@@ -38,3 +38,15 @@ Avec le tableau de notes, on calcule la moyenne de la classe, puis on trouve les
 3. Remplir le tableau de notes
 4. Calculer et afficher la moyenne
 5. Trouver et afficher la note min et note max
+
+# Projet 5
+### Notions abordé : fonctions et méthodes 
+## Calculatrices
+Menu :
+1. Addition de plusieurs nombres
+2. Factorielle d'un nombre
+3. Vérifier si nombre premier
+4. Afficher table de multiplication
+5. Mettre à la puissance
+6. Quitter
+(Pour chacune de ces fonctions faire des fonctions séparées)
