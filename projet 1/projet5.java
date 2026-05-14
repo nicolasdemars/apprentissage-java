@@ -20,14 +20,22 @@ public class projet5 {
 
     public static void main(String[] args) {
         System.out.println("\n=== Projet 5 ===");
-        System.out.println(
-                "Bienvenue dans le menu de la calculatrice, tu peux retrouvez différentes fonctionnalités: \n -A : pour additionner plusieurs nombres\n -F : Pour calculer le factorielle d'un nombre\n -P : Pour vérifier si un nombre est premier\n -M : Pour afficher la table de mutliplication\n -Pu : Pour mettre à la puissance\n Merci de sélectionner une de ces fonctionnalités: ");
-        Scanner scanner = new Scanner(System.in);
         while (true) {
+            System.out.println(
+                    "Bienvenue dans le menu de la calculatrice, tu peux retrouver différentes fonctionnalités:");
+            System.out.println("- A : pour additionner plusieurs nombres");
+            System.out.println("- F : pour calculer la factorielle d'un nombre");
+            System.out.println("- P : pour vérifier si un nombre est premier");
+            System.out.println("- M : pour afficher la table de multiplication");
+            System.out.println("- Pu : pour mettre à la puissance");
+            System.out.println("- Q : pour quitter");
+            System.out.print("Merci de sélectionner une fonctionnalité : ");
+            Scanner scanner = new Scanner(System.in);
             String choix = scanner.nextLine();
             switch (choix) {
                 case "A":
-                    // a
+                    int resultat = addition();
+                    System.out.println("La somme est : " + resultat);
                     break;
                 case "F":
                     // mmm
