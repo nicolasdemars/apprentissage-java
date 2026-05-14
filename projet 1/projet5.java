@@ -33,7 +33,7 @@ public class projet5 {
 
     static boolean premier() {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Quel est votre nombre: ");
+        System.out.print("Quel est votre nombre ? ");
         int n = scanner.nextInt();
         if (n <= 1) {
             return false;
@@ -44,6 +44,15 @@ public class projet5 {
             }
         }
         return true;
+    }
+
+    static void multiplication() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Quel est votre nombre ? ");
+        int n = scanner.nextInt();
+        for (int i = 0; i <= 10; i++) {
+            System.out.println(n + " x " + i + " = " + n * i);
+        }
     }
 
     public static void main(String[] args) {
@@ -78,7 +87,7 @@ public class projet5 {
                     }
                     break;
                 case "M":
-                    // mmm
+                    multiplication();
                     break;
                 case "Pu":
                     // mmm
