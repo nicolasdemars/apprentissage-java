@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import javax.swing.plaf.synth.SynthPasswordFieldUI;
+
 public class projet5 {
     static int addition() {
         System.out.println("Combien de nombre souhaitez vous additionnez ? ");
@@ -29,6 +31,21 @@ public class projet5 {
         return resultat;
     }
 
+    static boolean premier() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Quel est votre nombre: ");
+        int n = scanner.nextInt();
+        if (n <= 1) {
+            return false;
+        }
+        for (int i = 2; i < n; i++) {
+            if (n % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
     public static void main(String[] args) {
         System.out.println("\n=== Projet 5 ===");
         while (true) {
@@ -53,7 +70,12 @@ public class projet5 {
                     System.out.println("Le factorielle est de : " + resultat2);
                     break;
                 case "P":
-                    // mmm
+                    boolean resultat3 = premier();
+                    if (resultat3 == true) {
+                        System.out.println("Le nombre est premier");
+                    } else {
+                        System.out.println("le nombre n'est pas premier");
+                    }
                     break;
                 case "M":
                     // mmm
