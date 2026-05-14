@@ -8,7 +8,7 @@ public class projet5 {
         int[] nombres = new int[quantite];
 
         for (int i = 0; i < quantite; i++) {
-            System.out.print("Note de l'étudiant " + (i + 1) + " : ");
+            System.out.print("Nombre " + (i + 1) + " : ");
             nombres[i] = scanner.nextInt();
         }
         int somme = 0;
@@ -16,6 +16,17 @@ public class projet5 {
             somme += nombres[i];
         }
         return somme;
+    }
+
+    static int factorielle() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Quel est votre nombre ? ");
+        int n = scanner.nextInt();
+        int resultat = 1;
+        for (int i = 1; i <= n; i++) {
+            resultat *= i;
+        }
+        return resultat;
     }
 
     public static void main(String[] args) {
@@ -34,11 +45,12 @@ public class projet5 {
             String choix = scanner.nextLine();
             switch (choix) {
                 case "A":
-                    int resultat = addition();
-                    System.out.println("La somme est : " + resultat);
+                    int resultat1 = addition();
+                    System.out.println("La somme est : " + resultat1);
                     break;
                 case "F":
-                    // mmm
+                    int resultat2 = factorielle();
+                    System.out.println("Le factorielle est de : " + resultat2);
                     break;
                 case "P":
                     // mmm
@@ -49,6 +61,9 @@ public class projet5 {
                 case "Pu":
                     // mmm
                     break;
+                case "Q":
+                    System.out.println("Fin du programme.");
+                    return;
             }
         }
     }
