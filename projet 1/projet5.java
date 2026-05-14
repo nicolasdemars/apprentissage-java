@@ -55,6 +55,19 @@ public class projet5 {
         }
     }
 
+    static int puissance() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Quel est le nombre de base ?");
+        int n = scanner.nextInt();
+        System.out.print("\nQuel est l'exposant ?");
+        int pu = scanner.nextInt();
+        int resultat = 1;
+        for (int i = 1; i <= pu; i++) {
+            resultat *= n;
+        }
+        return resultat;
+    }
+
     public static void main(String[] args) {
         System.out.println("\n=== Projet 5 ===");
         while (true) {
@@ -90,7 +103,8 @@ public class projet5 {
                     multiplication();
                     break;
                 case "Pu":
-                    // mmm
+                    int resultat4 = puissance()
+                    System.out.println("La résultat est : " + resultat4);
                     break;
                 case "Q":
                     System.out.println("Fin du programme.");
