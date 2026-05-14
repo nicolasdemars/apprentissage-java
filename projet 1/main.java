@@ -4,5 +4,6 @@ public class main {
         projet2.main(args);
         projet3.main(args);
         projet4.main(args);
+        projet5.main(args);
     }
 }
